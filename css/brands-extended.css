@@ -214,6 +214,13 @@
   --button-border:1px solid #000000;
 }
 
+/* Knocket */
+.button-knocket {
+  --button-text:#FFFFFF;
+  --button-background:#1E8FFF;
+  --button-border:1px solid #FFFFFF;
+}
+
 /* Layers */
 .button-layers {
   --button-text:#000000;
