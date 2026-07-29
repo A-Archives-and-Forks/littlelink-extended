@@ -7,11 +7,9 @@
 
 /* Brand Button Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* Only include brand-specific button styling here */
+/* Only include brand-specific button styling here.
+   The color/background/border plumbing lives in style.css. */
 .button,button {
-  color:var(--button-text,#000000);
-  background-color:var(--button-background,transparent);
-  border:var(--button-border,none);
   transition:filter 0.2s ease,transform 0.2s ease;
 }
 
@@ -216,8 +214,8 @@
 
 /* Knocket */
 .button-knocket {
-  --button-text:#FFFFFF;
-  --button-background:#1E8FFF;
+  --button-text:#DFF362;
+  --button-background:#0B1A0F;
   --button-border:1px solid #FFFFFF;
 }
 
